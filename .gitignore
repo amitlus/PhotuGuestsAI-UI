@@ -1,0 +1,28 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories (if you use npm or yarn for package management in the future)
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# GitHub Pages (if you deploy directly from the root folder)
+.env
