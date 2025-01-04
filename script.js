@@ -12,7 +12,7 @@ form.addEventListener('submit', async (e) => {
     messageDiv.style.color = 'black';
 
     try {
-        const response = await fetch('https://your-backend-url.com/events', {
+        const response = await fetch('https://127.0.0.1:8000.com/events', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({event_name: eventName, photographer_name: photographerName, email}),
